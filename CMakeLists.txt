@@ -27,6 +27,7 @@ endif()
 # Add each new .cpp file to this list.
 add_executable(emu-gb
     src/main.cpp
+    src/cartridge.cpp
 )
 
 # --- Unit tests (doctest) ---------------------------------------------------
