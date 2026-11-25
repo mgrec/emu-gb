@@ -1,0 +1,16 @@
+# Build output (command line and CLion)
+build/
+cmake-build-*/
+
+# IDE
+.idea/
+.vscode/
+
+# macOS
+.DS_Store
+
+# ROMs, boot ROMs and saves: never in the repository
+roms/
+*.gb
+*.gbc
+*.sav
